@@ -32,6 +32,5 @@ Pod::Spec.new do |s|
           cp -R "${SOURCE_PATH}" "${TARGET_PATH}/${PROJECT_NAME}"
       ',
   }
-  s.dependency 'JitsiMeetSDK', :git => 'https://github.com/KaliProgrammer/jitsi-meet.git', :branch => 'master' 
 
 end
